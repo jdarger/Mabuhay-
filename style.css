@@ -182,6 +182,15 @@ body {
   color: white;
 }
 
+/* Advanced categories get a subtle gold accent to signal higher difficulty */
+.cat-btn.advanced {
+  border-color: #d4a800;
+  color: #7a5800;
+  background: #fffae8;
+}
+.cat-btn.advanced:hover { border-color: #b38900; background: #fff3c2; color: #5a4000; }
+.cat-btn.advanced.active { background: var(--blue); border-color: var(--blue); color: white; }
+
 /* ── SECTIONS ────────────────────────────────────────────── */
 .mode-section { display: none; }
 .mode-section.active { display: block; }
